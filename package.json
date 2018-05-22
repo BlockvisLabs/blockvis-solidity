@@ -1,0 +1,35 @@
+{
+  "name": "blockvis-solidity",
+  "version": "1.0.0",
+  "description": "Solidity libraries for Ethereum smart contracts (ERC777 extensions & other helpers)",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlockvisLabs/blockvis-solidity.git"
+  },
+  "keywords": [
+    "Blockvis",
+    "smart-contract",
+    "solidity",
+    "erc777"
+  ],
+  "author": "Blockvis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BlockvisLabs/blockvis-solidity/issues"
+  },
+  "homepage": "https://github.com/BlockvisLabs/blockvis-solidity#readme",
+  "dependencies": {
+    "eip820": "0.0.20",
+    "openzeppelin-solidity": "^1.9.0",
+    "web3": "^1.0.0-beta.34"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^2.0.2"
+  }
+}
